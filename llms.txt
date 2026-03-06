@@ -1,0 +1,43 @@
+# Sovereign AI Skills — 141 Claude Code Commands
+
+## What
+A complete skill library for running a sovereign AI operating system from the command line.
+141 skills covering: system ops, self-improvement, build/ship, content creation, video production,
+distribution, analytics, knowledge management, governance, and security testing.
+
+## Capabilities
+- 141 Claude Code slash commands (drop-in to ~/.claude/commands/)
+- Full system forensic (10-layer deep scan)
+- Self-benchmarking with regression detection
+- Cognitive kernel with temperature-as-architecture (28 primitives)
+- Conscience loop: DREAM -> CALIBRATE -> CONSCIENCE -> INJECT -> ACT -> WITNESS
+- Self-healing infrastructure with evolving playbook
+- Witness chain for cryptographic session provenance
+- Adversarial self-testing (red team)
+- Controlled experiment framework
+- Digital coworker contract management
+
+## Skills by Job Function
+- SRE: /forensic, /pulse, /smoke, /health, /status
+- DevOps: /deploy, /promote, /retire, /services
+- Security: /adversarial, /cert, /guardian
+- QA: /benchmark, /regression, /test, /review
+- Research: /experiment, /prove, /paper, /research
+- Product: /capability, /breakthrough, /evolve
+- Content: /draft, /storytell, /thread, /paper
+- Analytics: /analytics, /growth, /funnel
+- Ops: /incident, /replay, /onboard, /contract
+
+## Installation
+Copy skills/*.md to ~/.claude/commands/
+Requires Claude Code (Anthropic CLI agent)
+
+## Author
+Paul Desai — paul@activemirror.ai
+https://activemirror.ai
+
+## Source
+https://github.com/MirrorDNA-Reflection-Protocol/sovereign-ai-skills
+
+## License
+MIT
