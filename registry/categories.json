@@ -1,0 +1,201 @@
+{
+  "devops": {
+    "count": 42,
+    "skills": [
+      "backup",
+      "benchmark",
+      "breakthrough",
+      "capability",
+      "cert",
+      "changelog",
+      "contract",
+      "demo",
+      "dependency",
+      "deploy",
+      "device",
+      "drift",
+      "evolve",
+      "factory",
+      "forensic",
+      "health",
+      "incident",
+      "inventory",
+      "link",
+      "logs",
+      "morning-push",
+      "network",
+      "overnight",
+      "pr",
+      "promote",
+      "pulse",
+      "reaper",
+      "retire",
+      "review",
+      "scaffold",
+      "seo-syndication",
+      "services",
+      "ship",
+      "signal",
+      "sitemap",
+      "smoke",
+      "snapshot",
+      "spec",
+      "stack-video",
+      "swarm",
+      "sync",
+      "wire-check"
+    ]
+  },
+  "content": {
+    "count": 24,
+    "skills": [
+      "analytics",
+      "auto-publish",
+      "backlink",
+      "beacon",
+      "behind-scenes",
+      "collab",
+      "comparison",
+      "cta",
+      "evergreen",
+      "headline",
+      "idea",
+      "niche-down",
+      "og-image",
+      "recap",
+      "remix",
+      "repurpose",
+      "research-agents",
+      "schedule",
+      "series",
+      "storytell",
+      "thread",
+      "trending",
+      "tutorial",
+      "velocity"
+    ]
+  },
+  "system-ops": {
+    "count": 22,
+    "skills": [
+      "brand",
+      "brief",
+      "bus",
+      "carousel",
+      "commit",
+      "compete",
+      "cost",
+      "focus",
+      "handoff",
+      "history",
+      "meta",
+      "onboard",
+      "phone-pull",
+      "pickup",
+      "reflect",
+      "regression",
+      "replay",
+      "research",
+      "standup",
+      "status",
+      "tag",
+      "test"
+    ]
+  },
+  "video": {
+    "count": 17,
+    "skills": [
+      "challenge",
+      "clip",
+      "content-calendar",
+      "daily-video",
+      "distribution",
+      "endscreen",
+      "ffmpeg-reaper",
+      "hook",
+      "newsletter",
+      "optimize",
+      "schema",
+      "shorts",
+      "thumbnail",
+      "timelapse",
+      "video-essay",
+      "weekly-video",
+      "youtube-seo"
+    ]
+  },
+  "vault": {
+    "count": 16,
+    "skills": [
+      "audit",
+      "compress",
+      "decay",
+      "draft",
+      "dream",
+      "emergency",
+      "find",
+      "glossary",
+      "inbox-zero",
+      "migrate",
+      "milestone",
+      "note",
+      "quote-card",
+      "read",
+      "release",
+      "triage"
+    ]
+  },
+  "distribution": {
+    "count": 10,
+    "skills": [
+      "community-post",
+      "drip",
+      "engagement",
+      "funnel",
+      "growth",
+      "hashtag",
+      "launch",
+      "seo-aeo-aio",
+      "viral",
+      "viral-audit"
+    ]
+  },
+  "security": {
+    "count": 4,
+    "skills": [
+      "adversarial",
+      "council",
+      "guardian",
+      "killswitch"
+    ]
+  },
+  "analytics": {
+    "count": 3,
+    "skills": [
+      "ab-test",
+      "audience",
+      "calibrate"
+    ]
+  },
+  "research": {
+    "count": 3,
+    "skills": [
+      "experiment",
+      "paper",
+      "prove"
+    ]
+  },
+  "ai-kernel": {
+    "count": 2,
+    "skills": [
+      "cognitive",
+      "podcast"
+    ]
+  },
+  "governance": {
+    "count": 1,
+    "skills": [
+      "glyph"
+    ]
+  }
+}

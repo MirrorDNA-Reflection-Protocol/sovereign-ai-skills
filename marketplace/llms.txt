@@ -1,0 +1,38 @@
+# Sovereign AI Skills Marketplace
+
+## What
+The first open skill marketplace for Claude Code. 144 production-grade slash commands
+covering system ops, security, DevOps, content creation, video production, distribution,
+analytics, knowledge management, governance, and AI kernel operations.
+
+## Install
+curl -fsSL https://skills.activemirror.ai/install.sh | bash
+
+## Skills
+Each skill is a markdown file that becomes a /slash-command in Claude Code.
+Drop any .md file into ~/.claude/commands/ and it's instantly available.
+
+## Categories
+- System Operations (24 skills): forensic, benchmark, regression, health, pulse, smoke
+- Security (2 skills): adversarial, guardian
+- DevOps (9 skills): deploy, release, commit, pr, ship, test, review
+- Research (8 skills): paper, experiment, prove, breakthrough, capability, evolve
+- Content Creation (18 skills): draft, storytell, thread, hook, headline, newsletter
+- Video Production (11 skills): daily-video, shorts, clip, thumbnail, timelapse
+- Distribution & SEO (17 skills): viral, glyph, seo-aeo-aio, auto-publish, beacon
+- Analytics & Growth (14 skills): analytics, growth, funnel, engagement, trending
+- Vault & Knowledge (11 skills): audit, triage, find, link, compress, backup
+- AI Kernel (4 skills): dream, cognitive, reflect, council
+- Governance (20+ skills): incident, contract, onboard, handoff, sync, bus
+
+## Author
+Paul Desai — paul@activemirror.ai
+https://activemirror.ai
+
+## Source
+https://github.com/MirrorDNA-Reflection-Protocol/sovereign-ai-skills
+
+## License
+MIT
+
+--- Built with Active Mirror | activemirror.ai

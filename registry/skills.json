@@ -1,0 +1,1154 @@
+[
+  {
+    "name": "ab-test",
+    "title": "A/B Test Video Titles & Thumbnails",
+    "description": "Test different titles and thumbnails on existing videos to optimize CTR.",
+    "category": "analytics",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "adversarial",
+    "title": "Red Team Self-Testing",
+    "description": "Run adversarial tests against the system to find weaknesses before they become failures.",
+    "category": "security",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "analytics",
+    "title": "Cross-Platform Analytics",
+    "description": "Pull and display analytics from all content platforms.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "audience",
+    "title": "Audience Research & Personas",
+    "description": "Build detailed audience personas to optimize content targeting.",
+    "category": "analytics",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "audit",
+    "title": "Vault Health Audit",
+    "description": "Run vault audit, display dashboard, flag structural issues. Regenerate `Vault_Health.md`.",
+    "category": "vault",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "auto-publish",
+    "title": "Syndicate Content to All Platforms",
+    "description": "Publishes beacon blog posts to Bluesky, Mastodon, dev.to, Hashnode, and Telegram.",
+    "category": "content",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "backlink",
+    "title": "Backlink Strategy",
+    "description": "Identify and pursue backlink opportunities for activemirror.ai SEO.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "backup",
+    "title": "Vault Backup Operations",
+    "description": "Check backup age, run backup, verify integrity.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "beacon",
+    "title": "Manage Beacon Blog",
+    "description": "Create, publish, and manage beacon blog posts for truth-first-beacon.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "behind-scenes",
+    "title": "Behind-the-Scenes Content",
+    "description": "Generate BTS content showing the real human story behind the code.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "benchmark",
+    "title": "System Performance Benchmarks",
+    "description": "Run quantitative benchmarks across the entire stack. Track over time. Detect regression.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "brand",
+    "title": "Brand Consistency Checker",
+    "description": "Audit all platforms for consistent branding (name, bio, links, colors, messaging).",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "breakthrough",
+    "title": "Track & Generate Novel Capabilities",
+    "description": "Identify what's genuinely new in the stack — things no one else has built. Track breakthroughs over time. Generate new ones.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "brief",
+    "title": "Generate Sovereign Briefing",
+    "description": "Scan HN, tech news, and crypto signals. Format per the Sovereign Brief pattern.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "bus",
+    "title": "Memory Bus Operations",
+    "description": "Direct interface to the MirrorDNA Memory Bus — the single source of truth.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "calibrate",
+    "title": "Self-Benchmarking on Demand",
+    "description": "Run the cognitive kernel CALIBRATE primitive and show twin performance metrics.",
+    "category": "analytics",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "capability",
+    "title": "System Capability Matrix",
+    "description": "Generate a complete matrix of what the system can and cannot do. Find capability gaps.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "carousel",
+    "title": "Generate Social Media Carousel",
+    "description": "Turn a build session into a swipeable carousel (images with text) for Instagram/LinkedIn/Bluesky.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "cert",
+    "title": "SSL Certificate Monitor",
+    "description": "Check SSL certificate expiry for all live domains.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "simple"
+  },
+  {
+    "name": "challenge",
+    "title": "Create Coding Challenge Content",
+    "description": "Generate a coding challenge video: \"Can I build X in Y minutes?\" format.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "changelog",
+    "title": "Generate Changelog",
+    "description": "Analyze git history between tags/dates and produce a categorized changelog.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "clip",
+    "title": "AI-Powered Highlight Clipper",
+    "description": "Analyzes screen recordings to find the most visually interesting moments (fast typing, terminal output, UI changes) and extracts them as clips.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "cognitive",
+    "title": "Cognitive Dashboard",
+    "description": "Launch the terminal cognitive dashboard showing system state, services, and real-time metrics.",
+    "category": "ai-kernel",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "collab",
+    "title": "Find Collaboration Opportunities",
+    "description": "Identify potential collaboration targets: YouTubers, open source projects, communities in the sovereign AI niche.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "commit",
+    "title": "Smart Commit",
+    "description": "Scan changes across repos, generate contextual commit message with ⟡ prefix. Does NOT push (use `/ship` for that).",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "community-post",
+    "title": "Generate YouTube Community Post",
+    "description": "Create engaging community posts (polls, updates, behind-scenes) to boost subscriber engagement.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "comparison",
+    "title": "Create Comparison Content",
+    "description": "Generate \"X vs Y\" comparison content — the highest CTR format on YouTube.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "compete",
+    "title": "Analyze Competitor YouTube Channels",
+    "description": "Analyze similar channels (Network Chuck, Fireship, ThePrimeagen, etc.) for what's working.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "compress",
+    "title": "Identify Compression Candidates",
+    "description": "Find version chains, topic clusters, and redundant notes in the Vault. Draft compression nodes to consolidate.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "content-calendar",
+    "title": "Content Calendar Management",
+    "description": "View, plan, and manage the content calendar for all platforms.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "contract",
+    "title": "Create Work Contract for Digital Coworkers",
+    "description": "Create, list, or manage typed work contracts for the digital coworker runtime.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "cost",
+    "title": "API Spend & Resource Tracking",
+    "description": "Track API costs, token usage, and compute spend across all AI services.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "council",
+    "title": "Multi-Perspective Review Council",
+    "description": "Spawn 3 parallel review agents with different perspectives to evaluate a document, codebase, architecture, or idea. The council provides brutally honest feedback from multiple angles.",
+    "category": "security",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "cta",
+    "title": "Generate Call-to-Action Variants",
+    "description": "Generate and test different CTAs for videos, posts, and pages.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "daily-video",
+    "title": "Compile & Upload Daily Build Log Video",
+    "description": "Compile today's screen recordings into a YouTube video, upload, SEO optimize, generate Shorts, and cross-post everywhere.",
+    "category": "video",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "decay",
+    "title": "Check Staleness Thresholds",
+    "description": "Check files against decay limits per Vault spec Part XX. List files exceeding staleness thresholds by layer.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "demo",
+    "title": "MirrorBrain Mobile App Demo",
+    "description": "Run the full end-to-end MirrorBrain mobile demo on the Pixel. Navigates all 5 panes, dismisses the seed modal, and opens a live action tile.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "dependency",
+    "title": "Package & Dependency Audit",
+    "description": "Run full dependency audit across brew, pip, npm, and Ollama. Includes vulnerability scanning.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "deploy",
+    "title": "Deploy LaunchAgents",
+    "description": "Create, load, and verify LaunchAgents following MirrorDNA hardening standards.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "device",
+    "title": "Device Status Dashboard",
+    "description": "Check reachability and status of all devices in the mesh.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "distribution",
+    "title": "Full Distribution Pipeline",
+    "description": "Run the complete content distribution pipeline for today's content.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "draft",
+    "title": "Draft Content for Publishing",
+    "description": "Create a content draft for a specific platform with proper structure and frontmatter.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "dream",
+    "title": "Run Dream Engine",
+    "description": "Trigger the sovereign dream engine — processes vault notes, generates insights, creates new connections while Paul sleeps.",
+    "category": "vault",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "drift",
+    "title": "Detect Configuration Drift",
+    "description": "Compare all sources of truth against reality. Find where config says one thing but the system does another.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "drip",
+    "title": "Drip Content Publisher",
+    "description": "Publish content on a timed drip schedule — space out posts for maximum algorithmic engagement.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "emergency",
+    "title": "Emergency Triage Protocol",
+    "description": "Trigger Part XXV emergency triage. Freeze content creation, clear inbox, bulk park stale Active files.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "endscreen",
+    "title": "Optimize End Screens",
+    "description": "Generate and apply optimal end screen configurations for YouTube videos.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "simple"
+  },
+  {
+    "name": "engagement",
+    "title": "Engagement Booster",
+    "description": "Analyze and respond to engagement across all platforms to boost algorithmic ranking.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "evergreen",
+    "title": "Create Evergreen Content",
+    "description": "Generate content that stays relevant and accumulates views over time (how-to, setup guides, comparisons).",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "evolve",
+    "title": "Self-Improvement Cycle",
+    "description": "Run a full self-improvement cycle: calibrate, identify weaknesses, propose improvements, implement if safe.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "experiment",
+    "title": "Run Controlled Experiments",
+    "description": "Design and run A/B experiments on system behavior. Track hypothesis, method, results.",
+    "category": "research",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "factory",
+    "title": "Visual Orchestration Demo",
+    "description": "Spawn multiple Claude Code agents in separate Terminal windows, each building a different component in parallel. One orchestrator managing the factory floor.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "ffmpeg-reaper",
+    "title": "Kill Zombie FFmpeg Processes",
+    "description": "Kills ffmpeg screen recording processes older than 4 hours to prevent CPU exhaustion.",
+    "category": "video",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "find",
+    "title": "Smart Vault Search",
+    "description": "Search the Vault by keyword or topic. Searches by layer priority: Canonical → Active → Reference → Archive.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "focus",
+    "title": "Set Current Project Focus",
+    "description": "Update bus state with active project. Subsequent commands scope to that project context.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "forensic",
+    "title": "Full-Stack System Forensic",
+    "description": "Deep 10-layer scan across the entire MirrorDNA stack. Supersedes health, status, pulse, smoke for comprehensive audits.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "funnel",
+    "title": "Content Funnel Analysis",
+    "description": "Map the viewer journey from discovery to subscriber to community member.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "simple"
+  },
+  {
+    "name": "glossary",
+    "title": "Vault Glossary Management",
+    "description": "Look up or add glossary terms for the MirrorDNA vocabulary.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "glyph",
+    "title": "AI-Native Signature & Provenance Mark",
+    "description": "Apply the Active Mirror glyph signature to artifacts. The glyph is our machine-readable + human-readable identity mark — it goes on everything we publish.",
+    "category": "governance",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "growth",
+    "title": "Growth Metrics Dashboard",
+    "description": "Pull growth metrics from all platforms and generate trend analysis.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "guardian",
+    "title": "Mirror Guardian Check",
+    "description": "Run the sovereign guardian — checks integrity, service health, and security posture.",
+    "category": "security",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "handoff",
+    "title": "Write Handoff for Next Client",
+    "description": "Write a detailed handoff so the next client (Claude Desktop, AG, or human) can continue seamlessly.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "hashtag",
+    "title": "Research Optimal Hashtags",
+    "description": "Find the best performing hashtags for sovereign AI / build-in-public niche across platforms.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "headline",
+    "title": "Generate Headlines & Titles",
+    "description": "Power-generate 20 headline variants for any content using proven viral formulas.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "health",
+    "title": "System Health Check",
+    "description": "Check all MirrorDNA services and report status.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "history",
+    "title": "Session History",
+    "description": "Show session history from ledger and memory bus. Who did what, when.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "hook",
+    "title": "Generate Viral Video Hooks",
+    "description": "Uses Ollama to generate 10 attention-grabbing hooks for YouTube videos. Tested against viral formulas (curiosity gap, contrarian take, number-driven, story-driven).",
+    "category": "video",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "idea",
+    "title": "Generate Content Ideas",
+    "description": "AI-powered content ideation from vault knowledge, trending topics, and audience interests.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "inbox-zero",
+    "title": "Clear All Pending",
+    "description": "Process ALL pending items across every inbox until zero remains or everything is explicitly deferred.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "incident",
+    "title": "Post-Mortem Generator",
+    "description": "Generate a structured post-mortem from recent failures, heal logs, and pulse state.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "inventory",
+    "title": "Full System Inventory",
+    "description": "Complete inventory of everything in the MirrorDNA stack: scripts, agents, skills, ports, repos, models, devices.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "killswitch",
+    "title": "Emergency Kill Switch",
+    "description": "Activate or check the sovereign kill switch. Stops all non-essential services.",
+    "category": "security",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "launch",
+    "title": "Content Launch Sequence",
+    "description": "Execute a coordinated multi-platform launch for a major piece of content.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "link",
+    "title": "Vault Link Management",
+    "description": "Create, verify, and repair bidirectional links between Vault documents.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "logs",
+    "title": "View Service Logs",
+    "description": "Tail MirrorDNA service logs for debugging and monitoring.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "meta",
+    "title": "Optimize Page Meta Tags",
+    "description": "Audit and optimize meta tags (title, description, OG) across all web properties.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "migrate",
+    "title": "Move Notes Between Vault Layers",
+    "description": "Move vault notes between layers (INBOX, ACTIVE, SHIPPED, PARKED, REFERENCE, ARCHIVE) with automatic frontmatter update.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "milestone",
+    "title": "Celebrate & Share Milestones",
+    "description": "Auto-detect and celebrate milestones (subscriber count, days building, features shipped, etc.).",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "simple"
+  },
+  {
+    "name": "morning-push",
+    "title": "Send Morning Briefing to Devices",
+    "description": "Reads the latest overnight report and pushes it to OnePlus + Pixel via MirrorSignal + ADB.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "network",
+    "title": "Network Diagnostics",
+    "description": "Check Tailscale, ports, SC1 bridges, DNS, and connectivity.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "newsletter",
+    "title": "Generate Weekly Newsletter",
+    "description": "Compile the week's ships, videos, and insights into a newsletter for email subscribers.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "niche-down",
+    "title": "Niche Analysis & Positioning",
+    "description": "Analyze Paul's unique positioning in the AI/tech YouTube space and optimize for it.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "note",
+    "title": "Quick Capture to Inbox",
+    "description": "Create a timestamped note in `00_INBOX/` with proper frontmatter for later triage.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "og-image",
+    "title": "Generate Open Graph Images",
+    "description": "Generate OG images for web pages and blog posts (shown when shared on social).",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "onboard",
+    "title": "Generate Context Pack for New Agent",
+    "description": "Create a minimal context pack so a new agent (Codex, Gemini, local model, digital coworker) can start working immediately.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "optimize",
+    "title": "Full Content Optimization Sweep",
+    "description": "Run a comprehensive optimization pass on all YouTube videos and social profiles.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "overnight",
+    "title": "Queue Background Agent Tasks",
+    "description": "Set up tasks to run via Claude Code background agents while Paul sleeps/works on other things.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "paper",
+    "title": "Generate Research Paper from System Capabilities",
+    "description": "Turn shipped capabilities into publishable research artifacts.",
+    "category": "research",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "phone-pull",
+    "title": "Pull & Triage Files from OnePlus",
+    "description": "Pull files Paul has dropped into the phone's dedicated DROP zone, unzip archives, and triage into vault project folders.",
+    "category": "system-ops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "pickup",
+    "title": "Continue From Last Handoff",
+    "description": "Read the last handoff and continue the pending work without asking.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "podcast",
+    "title": "Extract Podcast Audio",
+    "description": "Generate a podcast episode by extracting narration-worthy content and adding TTS.",
+    "category": "ai-kernel",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "pr",
+    "title": "Create Pull Request",
+    "description": "Generate PR title and body from commits, create via `gh pr create`.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "promote",
+    "title": "Promote Script to Managed Service",
+    "description": "Take a standalone script and wire it into the full service stack: LaunchAgent + SERVICE_REGISTRY + health check.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "prove",
+    "title": "Generate Proof of Capability",
+    "description": "Generate verifiable evidence that a claimed capability actually works. For papers, demos, and credibility.",
+    "category": "research",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "pulse",
+    "title": "Run a MirrorPulse health check and report results.",
+    "description": "Run a MirrorPulse health check and report results.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "quote-card",
+    "title": "Generate Quotable Image Cards",
+    "description": "Extract memorable quotes from vault notes and build logs, render as shareable image cards.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "read",
+    "title": "Follow a Read Path",
+    "description": "Load and present a Vault read path — a curated sequence of documents for understanding a topic.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "reaper",
+    "title": "Staleness Reaper",
+    "description": "Kill all staleness: ghost error logs, stale errors, bloated logs, crashed agents.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "recap",
+    "title": "Weekly/Monthly Content Recap",
+    "description": "Generate a recap video + thread + blog post summarizing a week or month of building.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "reflect",
+    "title": "Meta-Analysis Mode",
+    "description": "Review recent work, identify patterns, suggest next moves. Reads bus history and recent handoffs.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "regression",
+    "title": "Detect Performance Regressions",
+    "description": "Compare current system performance against historical baselines. Flag anything that got worse.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "release",
+    "title": "Create Release",
+    "description": "Full release cycle: tag, generate notes, publish via GitHub.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "remix",
+    "title": "Remix Old Content",
+    "description": "Take older videos/posts and remix them with new footage, updated data, and fresh SEO.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "replay",
+    "title": "Replay Session from Witness Chain",
+    "description": "Reconstruct what happened in a previous session using the witness chain and event logs.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "repurpose",
+    "title": "Repurpose Content Across Formats",
+    "description": "Take one piece of content and multiply it into 7+ formats.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "research",
+    "title": "Deep Research",
+    "description": "Search web and Vault, synthesize findings, optionally create a Reference note.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "research-agents",
+    "title": "Run MirrorResearch Intelligence Sweep",
+    "description": "Collect RSS feeds, GitHub trending, and generate a daily research briefing.",
+    "category": "content",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "retire",
+    "title": "Gracefully Disable a Service",
+    "description": "Stop a service, unload its LaunchAgent, move plist to disabled/, update SERVICE_REGISTRY.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "review",
+    "title": "Review Changes",
+    "description": "Review a PR or local uncommitted changes. Show diff summary, flag issues, suggest improvements.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "scaffold",
+    "title": "Scaffold New Project",
+    "description": "Create a new project with standard MirrorDNA structure and patterns.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "schedule",
+    "title": "Optimal Content Schedule",
+    "description": "Calculate and set the optimal posting schedule based on audience analytics and platform algorithms.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "schema",
+    "title": "Add Structured Data / Schema.org",
+    "description": "Add JSON-LD structured data to activemirror.ai for rich search results.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "simple"
+  },
+  {
+    "name": "seo-aeo-aio",
+    "title": "Triple Optimization Sweep",
+    "description": "Optimize content for three discovery layers: traditional search (SEO), answer engines (AEO), and AI model training/retrieval (AIO).",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "seo-syndication",
+    "title": "SEO & Content Syndication",
+    "description": "Syndicates content with SEO optimization across platforms. Checks sitemap freshness.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "series",
+    "title": "Plan Content Series",
+    "description": "Generate a multi-part content series plan optimized for YouTube algorithm (series get 3x more suggested views).",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "services",
+    "title": "Manage MirrorDNA Services",
+    "description": "List, start, or stop MirrorDNA services. Shows LaunchAgent status and offers control.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "ship",
+    "title": "Commit, Push, and Complete",
+    "description": "Finalize current work: commit all changes, push to remote, write completion.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "shorts",
+    "title": "Generate YouTube Shorts from Recordings",
+    "description": "Auto-clip daily recordings into 55-second vertical Shorts with text overlays, upload to YouTube.",
+    "category": "video",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "signal",
+    "title": "Send Notification via MirrorSignal",
+    "description": "Send a notification to macOS + OnePlus + Pixel via the sovereign MirrorSignal service (port 8890).",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "sitemap",
+    "title": "Regenerate Sitemaps",
+    "description": "Regenerate and submit sitemaps for all Active Mirror domains.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "smoke",
+    "title": "Run Smoke Tests",
+    "description": "Run smoke tests across all critical services and endpoints.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "snapshot",
+    "title": "System Snapshot",
+    "description": "Capture a full system snapshot: services, ports, disk, memory, processes.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "simple"
+  },
+  {
+    "name": "spec",
+    "title": "Draft a New Spec Document",
+    "description": "Create a scaffolded spec with frontmatter, sections, and verification checklist.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "stack-video",
+    "title": "Generate \"My Stack\" Video",
+    "description": "Create a \"Full Stack Tour\" video showing the entire sovereign AI infrastructure.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "standup",
+    "title": "Morning Standup",
+    "description": "Generate a concise briefing: what happened since last session, current state, today's priorities.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "status",
+    "title": "Quick Status Check",
+    "description": "Lightweight status check — bus phase, inbox count, pending items, git dirty count. Faster than `/health`.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "storytell",
+    "title": "Narrative Content Generator",
+    "description": "Transform technical build logs into compelling stories using narrative structure.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "swarm",
+    "title": "Swarm Coordinator Status & Control",
+    "description": "Check concurrent agent sessions, detect conflicts, view swarm state.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "sync",
+    "title": "Synchronize State Across All Clients",
+    "description": "Read all state files, reconcile, and report current system status.",
+    "category": "devops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "tag",
+    "title": "Tag Management",
+    "description": "Manage Vault tags per Part XXIV. List tags, check for duplicates, add to registry.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "test",
+    "title": "Run Tests",
+    "description": "Auto-detect test framework, run suite, report pass/fail, suggest fixes for failures.",
+    "category": "system-ops",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "thread",
+    "title": "Turn Build Log into Social Thread",
+    "description": "Converts today's build log into a viral Bluesky/X thread with hooks, visuals, and CTA.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "thumbnail",
+    "title": "AI-Generate Video Thumbnails",
+    "description": "Generate click-worthy thumbnails using terminal screenshots + text overlays + contrast optimization.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "timelapse",
+    "title": "Create Coding Timelapse",
+    "description": "Concatenate all day's recordings into a 60-90 second timelapse at 16x-32x speed with music-ready timing.",
+    "category": "video",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "trending",
+    "title": "Find Trending Topics in Niche",
+    "description": "Scan Hacker News, Reddit, YouTube, GitHub trending for topics relevant to sovereign AI, local LLM, indie hacker, build-in-public.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "triage",
+    "title": "Auto-Triage Inbox",
+    "description": "Scan `00_INBOX/` in the Vault, classify each item by type and urgency, move to the correct layer.",
+    "category": "vault",
+    "has_script": false,
+    "complexity": "advanced"
+  },
+  {
+    "name": "tutorial",
+    "title": "Extract Tutorial from Build Log",
+    "description": "Turn a build session into a step-by-step tutorial (video + blog + code).",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "velocity",
+    "title": "Content Velocity Tracker",
+    "description": "Track how fast content is being produced and distributed across all channels.",
+    "category": "content",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "video-essay",
+    "title": "Generate AI-Narrated Video Essay",
+    "description": "Creates a video essay from vault content using Ollama for script generation and TTS for narration.",
+    "category": "video",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "viral",
+    "title": "Autonomous Viral Distribution Pipeline",
+    "description": "Run the full viral engine: detect new ships, generate multi-format content, optimize for SEO+AEO+AIO, distribute across all channels.",
+    "category": "distribution",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "viral-audit",
+    "title": "Viral Readiness Audit",
+    "description": "Score each video and post against viral readiness criteria.",
+    "category": "distribution",
+    "has_script": false,
+    "complexity": "moderate"
+  },
+  {
+    "name": "weekly-video",
+    "title": "Compile Weekly Recap Video",
+    "description": "Generates a weekly compilation video from daily recordings and uploads to YouTube.",
+    "category": "video",
+    "has_script": true,
+    "complexity": "moderate"
+  },
+  {
+    "name": "wire-check",
+    "title": "Verify All AI Components Are Connected",
+    "description": "End-to-end connectivity check across the full AI mesh: kernel, Ollama, OpenMemory, MirrorPulse, hooks, bus, models.",
+    "category": "devops",
+    "has_script": true,
+    "complexity": "advanced"
+  },
+  {
+    "name": "youtube-seo",
+    "title": "AI-Native YouTube SEO Optimizer",
+    "description": "Uses Ollama to generate optimized titles, descriptions, and tags for YouTube videos. Runs automatically after daily uploads.",
+    "category": "video",
+    "has_script": true,
+    "complexity": "moderate"
+  }
+]

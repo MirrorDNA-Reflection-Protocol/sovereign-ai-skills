@@ -1,8 +1,8 @@
-# Sovereign AI Skills — 141 Claude Code Commands for Autonomous AI Operations
+# Sovereign AI Skills — 144 Claude Code Commands for Autonomous AI Operations
 
 A complete skill library for running a sovereign AI operating system from the command line. Built by [Paul Desai](https://activemirror.ai) as part of the [Active Mirror](https://activemirror.ai) project — a sovereign AI infrastructure running entirely on a Mac Mini M4 with zero cloud dependencies.
 
-**141 skills. 184 backing scripts. 83 automated agents. One machine.**
+**144 skills. 184 backing scripts. 83 automated agents. One machine.**
 
 ## What This Is
 
