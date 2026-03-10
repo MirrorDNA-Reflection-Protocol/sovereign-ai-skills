@@ -44,6 +44,15 @@ MIRRORDNA = HOME / ".mirrordna"
 REPORT_PATH = MIRRORDNA / "health" / "forensic_report.json"
 REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
+LIB_DIR = MIRRORDNA / "lib"
+if str(LIB_DIR) not in sys.path:
+    sys.path.insert(0, str(LIB_DIR))
+
+try:
+    from secrets_loader import get_secret
+except Exception:  # pragma: no cover - optional local dependency
+    get_secret = None
+
 QUICK = "--quick" in sys.argv
 JSON_ONLY = "--json" in sys.argv
 LAYER_FILTER = None
@@ -493,6 +502,10 @@ def check_security():
                     keys_found.add(k)
 
     expected_keys = {"ANTHROPIC_API_KEY", "GROQ_API_KEY"}
+    if get_secret is not None:
+        for key in expected_keys:
+            if get_secret(key):
+                keys_found.add(key)
     missing = expected_keys - keys_found
     if missing:
         findings.append(("WARN", f"Missing API keys: {', '.join(missing)}"))
