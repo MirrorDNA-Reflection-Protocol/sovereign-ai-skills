@@ -1,160 +1,95 @@
-# Sovereign AI Skills — 144 Claude Code Commands for Autonomous AI Operations
+# Sovereign AI Skills
 
-A complete skill library for running a sovereign AI operating system from the command line. Built by [Paul Desai](https://activemirror.ai) as part of the [Active Mirror](https://activemirror.ai) project — a sovereign AI infrastructure running entirely on a Mac Mini M4 with zero cloud dependencies.
+**153 production-tested skill definitions for autonomous AI agent operations -- system governance, self-healing, observability, content pipelines, and lifecycle management.**
 
-**144 skills. 184 backing scripts. 83 automated agents. One machine.**
+[![License: MIT](https://img.shields.io/badge/license-MIT-grey.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-153-0a66c2.svg)](skills/)
 
-## What This Is
+---
 
-Every skill is a `/command` for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (Anthropic's CLI agent). Drop them in `~/.claude/commands/` and they become invocable with `/skill-name`.
+Sovereign AI Skills is an infrastructure library for running governed AI systems from the command line. Each skill is a structured job profile for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (Anthropic's CLI agent) -- not a prompt template, but a complete workflow definition with steps, verification criteria, and output format.
 
-These aren't toy prompts. Each skill is a job profile — a complete workflow with steps, verification, and output format. They represent every job a sovereign AI system needs to do, organized by domain:
+Install the skills, and commands like `/forensic`, `/calibrate`, `/evolve`, and `/council` become available as first-class operations in your agent.
+
+## Architecture
+
+```
++-----------------------------------------------------------------+
+|  Operator                                                       |
++-----------------------------------------------------------------+
+         |
+         v
++-----------------------------------------------------------------+
+|  Claude Code + 153 Skills (this repository)                     |
+|  /forensic  /calibrate  /evolve  /council  /prove  ...         |
++-----------------------------------------------------------------+
+         |
+         v
++-----------------------------------------------------------------+
+|  Cognitive Kernel (28 primitives)                                |
+|                                                                  |
+|  15 deterministic (temp 0.0)   identity, search, verify         |
+|   6 creative     (temp 0.7)   dream, compose, simulate          |
+|   7 blended      (temp 0.3)   conscience, learn, anticipate     |
++-----------------------------------------------------------------+
+         |
+         v
++-----------------------------------------------------------------+
+|  Self-Healing Infrastructure                                     |
+|  Detect --> Diagnose --> Heal --> Learn --> Report               |
+|  Evolving fix playbook: patterns that work are retained         |
++-----------------------------------------------------------------+
+         |
+         v
++-----------------------------------------------------------------+
+|  Runtime                                                         |
+|  Local inference (Ollama)  |  Automation scripts  |  Agents     |
++-----------------------------------------------------------------+
+```
 
 ## Skill Categories
 
 ### System Operations (22 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/forensic` | Full 10-layer deep system scan (services, network, kernel, integrity, infra, deps, vault, security, continuity, drift) |
+
+Infrastructure management, diagnostics, and deployment.
+
+| Skill | Purpose |
+|-------|---------|
+| `/forensic` | Full 10-layer system scan: services, network, kernel, integrity, infra, deps, vault, security, continuity, drift |
 | `/benchmark` | Quantitative performance benchmarks tracked over time |
 | `/regression` | Detect performance regressions against baselines |
 | `/wire-check` | Verify all AI components are connected end-to-end |
 | `/calibrate` | Self-benchmarking with grade (A-F), trend, and recommendations |
-| `/drift` | Detect configuration drift across all sources of truth |
-| `/promote` | Promote script to managed service (LaunchAgent + registry) in one step |
+| `/drift` | Detect configuration drift across sources of truth |
+| `/promote` | Promote script to managed service (LaunchAgent + registry) |
 | `/retire` | Gracefully disable a service (stop, archive, update registry) |
-| `/device` | Device mesh status dashboard |
-| `/cert` | SSL certificate expiry monitor |
-| `/inventory` | Complete system inventory (scripts, agents, skills, ports, repos, models) |
-| `/cost` | API spend and resource tracking |
-| `/dependency` | Package and vulnerability audit (brew, pip, npm) |
 | `/health` | Service health check |
-| `/status` | Quick status (bus, inbox, git, queues) |
-| `/pulse` | Self-healing infrastructure check |
 | `/smoke` | End-to-end smoke tests |
-| `/services` | Service management |
 | `/deploy` | Deploy LaunchAgents |
-| `/killswitch` | Emergency stop all agents |
-| `/emergency` | Emergency triage protocol |
-| `/network` | Network diagnostics |
+| `/killswitch` | Emergency stop for all agents |
 
-### Intelligence & Self-Improvement (9 skills)
-| Skill | What it does |
-|-------|-------------|
+### Intelligence and Self-Improvement (9 skills)
+
+Autonomous evaluation, adversarial testing, and capability tracking.
+
+| Skill | Purpose |
+|-------|---------|
 | `/evolve` | Self-improvement cycle: calibrate, identify weaknesses, fix |
-| `/breakthrough` | Track and generate novel capabilities |
-| `/capability` | System capability matrix with coverage scores |
+| `/adversarial` | Red team self-testing |
 | `/prove` | Generate verifiable proof that a capability works |
 | `/experiment` | Controlled A/B experiments on system behavior |
-| `/adversarial` | Red team self-testing |
-| `/dream` | Run the Dream Engine (autonomous self-improvement) |
-| `/reflect` | Meta-analysis of own performance |
 | `/council` | Multi-perspective review (architect, critic, operator) |
+| `/dream` | Autonomous self-improvement engine |
+| `/reflect` | Meta-analysis of own performance |
+| `/capability` | System capability matrix with coverage scores |
+| `/breakthrough` | Track and generate novel capabilities |
 
-### Build & Ship (10 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/commit` | Smart commit with semantic message |
-| `/ship` | Commit, push, and mark complete |
-| `/pr` | Create pull request |
-| `/release` | Create release |
-| `/scaffold` | Scaffold new project |
-| `/test` | Run tests |
-| `/review` | Review changes |
-| `/factory` | Visual orchestration demo |
-| `/swarm` | Multi-agent swarm coordination |
-| `/spec` | Draft specification document |
+### Governance and Continuity (14 skills)
 
-### Content Creation (18 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/draft` | Draft content for publishing |
-| `/paper` | Generate research paper from system capabilities |
-| `/storytell` | Narrative content generator |
-| `/hook` | Generate viral video hooks |
-| `/headline` | Generate headlines and titles |
-| `/cta` | Generate call-to-action variants |
-| `/idea` | Generate content ideas |
-| `/carousel` | Social media carousel |
-| `/quote-card` | Quotable image cards |
-| `/behind-scenes` | Behind-the-scenes content |
-| `/evergreen` | Create evergreen content |
-| `/comparison` | Create comparison content |
-| `/challenge` | Coding challenge content |
-| `/newsletter` | Weekly newsletter |
-| `/community-post` | YouTube community post |
-| `/thread` | Turn build log into social thread |
-| `/note` | Quick capture to inbox |
-| `/brief` | Sovereign briefing generator |
+Session management, handoffs, witness chain, and compliance.
 
-### Video Production (10 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/daily-video` | Compile daily build log video |
-| `/weekly-video` | Weekly recap video |
-| `/shorts` | Generate YouTube Shorts from recordings |
-| `/clip` | AI-powered highlight clipper |
-| `/timelapse` | Coding timelapse |
-| `/video-essay` | AI-narrated video essay |
-| `/podcast` | Extract podcast audio |
-| `/tutorial` | Extract tutorial from build log |
-| `/stack-video` | Generate "My Stack" video |
-| `/endscreen` | Optimize end screens |
-
-### Distribution & SEO (15 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/auto-publish` | Syndicate content to all platforms |
-| `/distribution` | Full distribution pipeline |
-| `/launch` | Content launch sequence |
-| `/drip` | Drip content publisher |
-| `/beacon` | Manage blog |
-| `/seo-syndication` | SEO and content syndication |
-| `/repurpose` | Repurpose content across formats |
-| `/remix` | Remix old content |
-| `/schedule` | Optimal content schedule |
-| `/content-calendar` | Content calendar management |
-| `/sitemap` | Regenerate sitemaps |
-| `/schema` | Add structured data / Schema.org |
-| `/meta` | Optimize page meta tags |
-| `/youtube-seo` | AI-native YouTube SEO |
-| `/og-image` | Generate Open Graph images |
-
-### Analytics & Growth (12 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/analytics` | Cross-platform analytics |
-| `/growth` | Growth metrics dashboard |
-| `/velocity` | Content velocity tracker |
-| `/funnel` | Content funnel analysis |
-| `/engagement` | Engagement booster |
-| `/ab-test` | A/B test video titles and thumbnails |
-| `/viral-audit` | Viral readiness audit |
-| `/trending` | Find trending topics |
-| `/niche-down` | Niche analysis and positioning |
-| `/audience` | Audience research and personas |
-| `/compete` | Analyze competitor channels |
-| `/hashtag` | Research optimal hashtags |
-
-### Knowledge Management (12 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/find` | Smart vault search |
-| `/read` | Follow a guided read path |
-| `/audit` | Vault health audit |
-| `/triage` | Auto-triage inbox |
-| `/compress` | Identify compression candidates |
-| `/link` | Vault link management |
-| `/tag` | Tag management |
-| `/glossary` | Glossary management |
-| `/migrate` | Move notes between vault layers |
-| `/focus` | Set current project focus |
-| `/inbox-zero` | Clear all pending items |
-| `/research` | Deep research |
-
-### Governance & Continuity (14 skills)
-| Skill | What it does |
-|-------|-------------|
+| Skill | Purpose |
+|-------|---------|
 | `/incident` | Post-mortem generator from failure data |
 | `/replay` | Reconstruct sessions from witness chain |
 | `/contract` | Work contracts for digital coworkers |
@@ -162,102 +97,113 @@ These aren't toy prompts. Each skill is a job profile — a complete workflow wi
 | `/handoff` | Write handoff for next agent |
 | `/pickup` | Continue from last handoff |
 | `/standup` | Morning standup |
-| `/overnight` | Queue background agent tasks |
-| `/signal` | Send notification via sovereign notification service |
-| `/morning-push` | Send morning briefing to devices |
-| `/phone-pull` | Pull and triage files from mobile |
 | `/sync` | Synchronize state across all clients |
 | `/bus` | Memory bus operations |
-| `/history` | Session history |
 
-### Branding & Visibility (11 skills)
-| Skill | What it does |
-|-------|-------------|
-| `/brand` | Brand consistency checker |
-| `/collab` | Find collaboration opportunities |
-| `/backlink` | Backlink strategy |
-| `/milestone` | Celebrate and share milestones |
-| `/recap` | Weekly/monthly content recap |
-| `/changelog` | Generate changelog |
-| `/thumbnail` | AI-generate video thumbnails |
-| `/demo` | Mobile app demo orchestration |
-| `/snapshot` | System snapshot |
-| `/optimize` | Full content optimization sweep |
-| `/guardian` | Mirror Guardian integrity check |
+### Build and Ship (10 skills)
+
+Version control, testing, release management.
+
+| Skill | Purpose |
+|-------|---------|
+| `/commit` | Smart commit with semantic message |
+| `/ship` | Commit, push, and mark complete |
+| `/pr` | Create pull request |
+| `/release` | Create release |
+| `/test` | Run tests |
+| `/review` | Review changes |
+| `/scaffold` | Scaffold new project |
+| `/spec` | Draft specification document |
+
+### Content, Distribution, and Analytics (55 skills)
+
+Content creation, SEO, syndication, growth tracking, and audience analysis across text, video, and social formats. Includes skills for newsletters, carousels, video essays, YouTube SEO, A/B testing, and funnel analysis.
+
+See the full catalog in [`skills/`](skills/).
+
+### Knowledge Management (12 skills)
+
+Vault operations, search, compression, and research.
+
+| Skill | Purpose |
+|-------|---------|
+| `/find` | Smart vault search |
+| `/audit` | Vault health audit |
+| `/triage` | Auto-triage inbox |
+| `/compress` | Identify compression candidates |
+| `/research` | Deep research |
+| `/migrate` | Move notes between vault layers |
 
 ### Lifecycle (8 skills)
-| Skill | What it does |
-|-------|-------------|
+
+Staleness detection, archival, backup, and process management.
+
+| Skill | Purpose |
+|-------|---------|
 | `/decay` | Check staleness thresholds |
-| `/reaper` | Staleness reaper (auto-archive) |
+| `/reaper` | Staleness reaper with auto-archive |
 | `/backup` | Vault backup operations |
-| `/logs` | View service logs |
-| `/ffmpeg-reaper` | Kill zombie FFmpeg processes |
 | `/cognitive` | Cognitive dashboard |
-| `/research-agents` | Run intelligence sweep |
-| `/release` | Create release |
 
-## The Architecture Behind It
+## Key Concepts
 
-These skills are the interface layer of a sovereign AI stack:
+**Temperature-as-Architecture.** Each cognitive kernel primitive declares its execution mode -- deterministic, creative, or blended. Temperature is a structural decision made at design time, not a parameter tuned at call time.
 
-```
-You (human)
-  |
-  v
-Claude Code + 141 Skills (this repo)
-  |
-  v
-Cognitive Kernel (28 primitives, temperature-as-architecture)
-  |-- 15 deterministic (temp 0.0): identity, search, verify
-  |-- 6 creative (temp 0.7): dream, compose, simulate
-  |-- 7 blended (temp 0.3): conscience, learn, anticipate
-  |
-  v
-14 Substrates (conscience, witness, dream, calibrate, ...)
-  |
-  v
-Self-Healing Infrastructure (MirrorPulse)
-  |-- Detect -> Diagnose -> Heal -> Learn -> Report
-  |-- Self-learning playbook (evolves fix patterns)
-  |
-  v
-184 Scripts + 83 LaunchAgents + 5 Ollama Models
-  |
-  v
-Mac Mini M4 (24GB, sovereign, no cloud required)
-```
+**Witness Chain.** SHA-256 hash-chain providing cryptographic provenance for every AI session. Each session links to its predecessor, creating an auditable lineage.
 
-### Novel Concepts
+**Conscience Loop.** A feedback cycle -- `DREAM -> CALIBRATE -> CONSCIENCE -> INJECT -> ACT -> WITNESS` -- where the system evaluates its own behavior and adjusts before the next action.
 
-- **Temperature-as-Architecture**: Each kernel primitive declares its mode (deterministic/creative/blended). Temperature isn't a parameter — it's a structural decision.
-- **Conscience Loop**: `DREAM -> CALIBRATE -> CONSCIENCE -> INJECT -> ACT -> WITNESS` — the system evaluates its own behavior and nudges itself.
-- **Witness Chain**: Cryptographic SHA256 hash-chain providing provenance for every AI session.
-- **Compaction Survival**: Distill checkpoints that survive context window compression.
-- **Self-Healing Playbook**: MirrorPulse learns which fixes work and evolves its repair patterns.
+**Self-Healing Playbook.** The infrastructure layer (MirrorPulse) follows a `Detect -> Diagnose -> Heal -> Learn -> Report` pattern. Fix patterns that succeed are retained and reused.
+
+**Compaction Survival.** Distilled checkpoints that survive context window compression, ensuring continuity across long-running agent sessions.
 
 ## Installation
 
 ```bash
-# Clone
 git clone https://github.com/MirrorDNA-Reflection-Protocol/sovereign-ai-skills.git
+cd sovereign-ai-skills
 
-# Copy skills to Claude Code
-cp sovereign-ai-skills/skills/*.md ~/.claude/commands/
+# Copy all skills into Claude Code's command directory
+cp skills/*.md ~/.claude/commands/
 
-# Now you can use /forensic, /benchmark, /evolve, etc. in Claude Code
+# Skills are now available as /skill-name in Claude Code
 ```
 
-Most skills assume a MirrorDNA-style directory structure at `~/.mirrordna/`. Adapt paths for your setup. The skill patterns are transferable to any sovereign AI infrastructure.
+Most skills reference a `~/.mirrordna/` directory structure for state, configuration, and logs. The skill patterns and workflow definitions are transferable to any agent infrastructure -- adapt the paths to your environment.
 
-## Who Built This
+### Automated Installation
 
-**Paul Desai** — Building sovereign AI infrastructure at [Active Mirror](https://activemirror.ai). 8 published papers. 57 repos. Zero cloud dependencies.
+```bash
+./install.sh
+```
 
-- [activemirror.ai](https://activemirror.ai) — Main site
-- [beacon.activemirror.ai](https://beacon.activemirror.ai) — Blog
-- [Publications](https://github.com/MirrorDNA-Reflection-Protocol/publications)
+The install script copies skills to the Claude Code commands directory and validates the installation.
+
+## Repository Structure
+
+```
+sovereign-ai-skills/
+  skills/          153 skill definitions (.md files)
+  scripts/         Build and registry tooling
+  registry/        Skill metadata (categories.json, skills.json)
+  marketplace/     Public skill index
+  docs/            Additional documentation
+  llms.txt         Machine-readable project summary
+  install.sh       Automated installer
+```
+
+## Compliance
+
+See [COMPLIANCE.md](COMPLIANCE.md) for control mappings against the EU AI Act, SOC 2 Type II, and ISO 27001:2022.
+
+## Security
+
+To report a vulnerability, see [SECURITY.md](SECURITY.md). Do not use public GitHub issues for security reports.
 
 ## License
 
 MIT
+
+---
+
+Built by [Active Mirror](https://activemirror.ai) -- governed AI for institutional work.
